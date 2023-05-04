@@ -1,0 +1,383 @@
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner bg main start */
+
+.Main{
+    width: 80%;
+    float: left;
+    background-image: url(banner-bg.png);
+    height: auto;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+
+
+.categories {
+    height: 40%;
+    max-width: 100%;
+    background: rgb(241, 238, 238);
+    margin: 7px 3px;
+    padding: 8px;
+    color: rgba(244, 76, 9, 0.93);
+    font-style: oblique;
+    font-family: revert;
+    font-size: large;
+    border: 2px solid #0c0707;
+    border: 36px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.categories_2{
+    height: 40%;
+    max-width: 100%;
+    background: rgb(241, 238, 238);
+    margin: 7px 3px;
+    padding: 8px;
+    color: rgba(244, 76, 9, 0.93);
+    font-style: oblique;
+    font-family: revert;
+    font-size: large;
+    border: 2px solid #0c0707;
+    border: 36px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+
+
+/* Logo section */
+.logo_section {
+    width: 100%;
+    float: left;
+    
+}
+.logo{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* Input*/
+form {
+    width: 400px;
+    margin: auto;
+   
+}
+  
+input{
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px; 
+}
+
+.search {
+    width: 75%;
+}
+  
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+}
+
+/* .dropdown
+{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+    order: 2;
+}
+
+.lang_dropdown_2{
+ 
+  margin-right: 30px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 150px;
+} */
+
+
+/* Login manu*/
+.cart_menu
+{ 
+    margin-left: 200px;   
+}
+.cart_menu:hover {
+    color: #f26522;
+} 
+
+.seemore_bt {
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+.badge {
+        border: 3px solid #cfb85c;
+        border-radius: 36%;
+        font-size: 25px;
+    } 
+.seemore_bt a {
+    width: 100%;
+    font-size: 16px;
+    color: #262626;
+    background-color: transparent;
+    text-align: right;
+}
+
+.seemore_bt a:hover {
+    background-color: transparent;
+    color: #f26522;
+}
+
+
+/* for banner*/
+ .Main{
+    width: 100%;
+    float: left;
+    background-image: url(banner-bg.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
+.banner_tital{
+    width: 100%;
+    font-size: 40px;
+    color: #0b0b0b;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+/* buy button*/
+.buynow_bt {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.buynow_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buynow_bt a:hover {
+    background-color: #bdee2a;
+    color: #ffffff;
+}
+
+/* fashion css */
+
+.fashion_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 150px;
+}
+
+.fashion_taital {
+    width: 100%;
+    font-size: 40px;
+    color: #30302e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fashion_section_2 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box_main {
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0px 0 30px 10px #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.shirt_text {
+    width: 100%;
+    font-size: 20px;
+    color: #30302e;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.price_text {
+    width: 100%;
+    font-size: 16px;
+    color: #f26522;
+    text-align: center;
+    margin: 0px;
+}
+
+.tshirt_img {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    min-height: 370px;
+}
+
+.btn_main {
+    width: 100%;
+    display: flex;
+}
+
+.buy_bt {
+    float: left;
+    width: 100%;
+}
+
+.buy_bt a {
+    width: 100%;
+    font-size: 16px;
+    color: #f26522;
+    background-color: transparent;
+    text-align: right;
+    font-weight: bold;
+}
+.buy_bt a:hover {
+    background-color: transparent;
+    color: #262626;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    .categories_2{
+        height: 30%;
+        max-width: 30%;
+        background: rgb(241, 238, 238);
+        margin: 7px 3px;
+        padding: 4px;
+        color: rgba(244, 76, 9, 0.93);
+        font-style: oblique;
+        font-family: revert;
+        font-size: large;
+        border: 15px;
+        cursor: pointer;
+        margin-left: 100px; 
+        
+    }
+    .banner_tital{
+        margin-top: 50px;
+    }
+    .categories{
+        height: 70%;
+        max-width: 70%;
+        background: rgb(241, 238, 238);
+        margin: 7px 3px;
+        padding: 4px;
+        color: rgba(244, 76, 9, 0.93);
+        font-style: oblique;
+        font-family: revert;
+        font-size: large;
+        border: 1px solid #0c0707;
+        border: 15px;
+        cursor: pointer;
+        margin-left: 100px;  
+    }
+    form{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    input{
+        padding: 4px 10px;
+        border: 0;
+        font-size: 16px; 
+        border: 1px solid #0c0707;
+    }
+
+    .banner_bg_main {
+        background-size: 100% 100%;
+
+    }
+    .cart_menu{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width:1000px){
+    .categories_2{
+        height: 50%;
+        max-width: 50%;
+        background: rgb(241, 238, 238);
+        margin: 7px 3px;
+        padding: 4px;
+        color: rgba(244, 76, 9, 0.93);
+        font-style: oblique;
+        font-family: revert;
+        font-size: large;
+        border: 15px;
+        cursor: pointer;
+        margin-left: 120px;
+        
+    }
+    .categories{
+        height: 50%;
+        max-width: 50%;
+        background: rgb(241, 238, 238);
+        margin: 7px 3px;
+        padding: 4px;
+        color: rgba(244, 76, 9, 0.93);
+        font-style: oblique;
+        font-family: revert;
+        font-size: large;
+        border: 1px solid #0c0707;
+        border: 15px;
+        cursor: pointer;
+        margin-left: 100px;
+
+    }
+    .cart_menu{
+        padding-left: 40px;
+        margin-left: 100px;
+    }
+
+}
+@media only screen and (min-width: 1001px){
+    .banner_tital{
+        width: 100%;
+        font-size: 40px;
+        color: #fdfcfc;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
